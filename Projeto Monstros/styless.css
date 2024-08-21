@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Pacifico&family=Playwrite+ES+Deco:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+html{
+    --cor-principal:#5C4033;
+    --cor-titulo:#000;
+    --cor-texto: #3A5F0B;
+    --cor-fundo: #fff;
+    --cor-final:#3A5F0B;
+
+}
+
+.dark{
+    --cor-principal:#00ff95;
+    --cor-titulo:#fff;
+    --cor-texto:#fff;
+    --cor-fundo: black;
+    --cor-final:#fff;
+}
+
+h1{
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    color: var(--cor-titulo);
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+button{
+    color: white;
+    background-color: #d23669;
+    padding:10px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    
+    margin: 25px;
+    cursor: pointer;
+
+}
+
+p{
+    color: var(--cor-texto);
+    font-size: 16px;
+    font-weight: bold;
+    justify-content:center ;
+    text-align: center;
+
+
+}
+
+.container {
+    background: var(--cor-fundo);
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.2s linear;
+
+
+
+}
+
+img {
+    border-radius:200px;
+    border: 2px solid black;
+}
+
+section{
+    width: 400px;
+
+}
+
+.Habilidades{
+
+    color: var(--cor-principal);
+
+}
+
+footer{
+    
+   color:#3A5F0B ; 
+}
